@@ -1,0 +1,28 @@
+.features {
+	margin-top: 1em;
+	padding: 2em;
+	background-color: rgb(249, 249, 249);
+	border-radius: 0.8rem;
+	text-align: center;
+}
+
+.features h2 {
+	font-size: 2.4rem;
+	margin-bottom: 1em;
+	color: rgb(51, 51, 51);
+}
+
+.feature {
+	margin-bottom: 1.5em;
+}
+
+.feature h3 {
+	font-size: 2rem;
+	margin-bottom: 1em;
+	color: rgb(0, 123, 255);
+}
+
+.feature p {
+	font-size: 1.6rem;
+	color: rgb(85, 85, 85);
+}

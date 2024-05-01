@@ -1,0 +1,48 @@
+.newsletter {
+	background-color: hsl(257, 27%, 26%);
+	background-image: url('../../assets/images/bg-boost-desktop.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 20vh;
+	width: 100%;
+}
+
+.section-newsletter {
+	padding-top: 2.5em;
+	text-align: center;
+}
+
+.title-text {
+	font-size: 2.8rem;
+	color: rgb(255, 255, 255);
+}
+
+.btn-newsletter {
+	color: rgb(255, 255, 255);
+	background-color: hsl(180, 66%, 49%);
+	height: 45px;
+	width: 150px;
+	font-size: 1.6rem;
+	border-radius: 25px;
+	text-align: center;
+	margin-top: 1em;
+	font-weight: 700;
+	cursor: pointer;
+	transition: background-color .4s;
+}
+
+.btn-newsletter:hover {
+	background-color: hsl(180, 66%, 70%);
+}
+
+
+@media (max-width: 768px) {
+	.newsletter {
+		background-image: url('../../assets/images/bg-boost-mobile.svg');
+	}
+
+	.title-text {
+		font-size: 2.5rem;
+	}
+}

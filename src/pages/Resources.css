@@ -1,0 +1,43 @@
+.resources {
+	padding: 2em;
+	background-color: rgb(247, 247, 247);
+	border-radius: 0.8rem;
+	margin: 1.5em auto;
+	width: 80%;
+	box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+.resources h1 {
+	color: rgb(51, 51, 51);
+	text-align: center;
+	margin: 0.5em 0;
+}
+
+.resources p {
+	text-align: center;
+	color: rgb(102, 102, 102);
+	margin: 0.5em 0;
+}
+
+.resources ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.resources li {
+	padding: 1em;
+	margin: 1em 0;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0.5rem;
+}
+
+.resources li a {
+	text-decoration: none;
+	color: rgb(0, 119, 204);
+	display: block;
+	transition: color 0.3s;
+}
+
+.resources li a:hover {
+	color: rgb(17, 188, 194);
+}
