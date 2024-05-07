@@ -21,6 +21,6 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true
 	},
-	"include": ["src", "src/hoc/ErrorBoundary.tsx"],
+	"include": ["src", "src/hoc/ErrorBoundary.tsx","**/*.ts"],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }

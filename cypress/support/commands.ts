@@ -1,4 +1,15 @@
-/// <reference types="cypress" />
+/// <reference types="cypress" /
+
+declare namespace Cypress {
+	interface Chainable {
+		openHomePage: () => void
+	}
+}
+
+Cypress.Commands.add('openHomePage', () => {
+	cy.visit('http://localhost:3000/')
+})
+
 // ***********************************************
 // This example commands.ts shows you how to
 // create various custom commands and overwrite

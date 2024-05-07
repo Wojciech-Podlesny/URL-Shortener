@@ -40,18 +40,17 @@ Users should be able to:
 
 - Cypress Tests
 - Building a server and adding a database
-- Adding Login and Registration functionality with authentication and authorization
+- Adding Login and Registration functionality with authentication
 
 ### Screenshot
 
-![Destop Design]()
-![Mobile Design]()
+![Destop Design](./src/assets/images/Screenshot.png)
 
 
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Wojciech-Podlesny/URL-Shortener)
-- Live Site URL: [Live Site URL]()
+- Live Site URL: [Live Site URL](https://url-shortener-apps.vercel.app/)
 
 ## My process
 
