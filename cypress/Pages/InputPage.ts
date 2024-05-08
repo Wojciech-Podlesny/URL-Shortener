@@ -66,6 +66,7 @@ class InputPage {
 		cy.get('.btn-copy copied').should('contain', 'Copied!')
 	
 	}
+
 }
 
 export const inputPage: InputPage = new InputPage()

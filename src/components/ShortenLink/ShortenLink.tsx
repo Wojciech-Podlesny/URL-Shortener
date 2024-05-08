@@ -3,6 +3,7 @@ import './ShortenLink.css'
 import ErrorBoundary from '../../hoc/ErrorBoundary'
 import useLocalStorage from '../../hooks/useLocalStorage'
 import { LinkResponse } from '../../types/types'
+import apiKey from '../../passes'
 
 const ShortenLink = () => {
 	const [originalLink, setOriginalLink] = useState<string>('')
@@ -21,7 +22,6 @@ const ShortenLink = () => {
 	}
 
 	const fetchData = async () => {
-		const apiKey = process.env.REACT_APP_API_KEY
 		const config: { url: string } = { url: originalLink }
 
 		try {
