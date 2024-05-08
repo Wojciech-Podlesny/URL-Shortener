@@ -6,7 +6,7 @@ export default defineConfig({
     //   // implement node event listeners here
     
     // },
-    baseUrl: 'http://localhost:3000/',
+    baseUrl: 'https://url-shortener-apps.vercel.app',
     chromeWebSecurity: true,
     includeShadowDom: true,
     viewportWidth: 1920,
