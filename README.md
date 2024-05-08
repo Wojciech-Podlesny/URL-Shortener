@@ -1,5 +1,7 @@
 #  URL Shortener
 
+https://url-shortener-apps.vercel.app
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -41,7 +43,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Destop Design](./src/assets/images/Screenshot.png)
+![Desktop Design](./src/assets/images/Screenshot.png)
+![Desktop Design](./src/assets/images/Screenshot%20shortener%20links.png)
 
 
 ### Links
@@ -75,4 +78,4 @@ Users should be able to:
 
 ## Author
 
-[Wojciech-Podleśny]
+Wojciech Podleśny
