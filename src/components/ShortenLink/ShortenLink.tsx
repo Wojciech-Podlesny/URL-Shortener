@@ -3,7 +3,7 @@ import './ShortenLink.css'
 import ErrorBoundary from '../../hoc/ErrorBoundary'
 import useLocalStorage from '../../hooks/useLocalStorage'
 import { LinkResponse } from '../../types/types'
-import apiKey from '../../../passes'
+import { apiKey } from '../../../passes'
 
 const ShortenLink = () => {
 	const [originalLink, setOriginalLink] = useState<string>('')
