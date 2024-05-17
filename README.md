@@ -50,7 +50,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Wojciech-Podlesny/URL-Shortener)
-- Live Site URL: [Live Site URL](https://url-shortener-apps.vercel.app/)
+- Live Site URL: [Live Site URL](https://url-shortener-apps.netlify.app/)
 
 ## My process
 
