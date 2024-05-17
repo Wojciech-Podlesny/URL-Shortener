@@ -1,6 +1,6 @@
 #  URL Shortener
 
-https://url-shortener-apps.vercel.app
+- Live Website: [Live Website](https://url-shortener-apps.netlify.app/)
 
 ## Table of contents
 
