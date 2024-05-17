@@ -1,6 +1,6 @@
 #  URL Shortener
 
-- Live Website: [Live Website](https://url-shortener-apps.netlify.app/)
+- Live Website: https://url-shortener-apps.netlify.app
 
 ## Table of contents
 
