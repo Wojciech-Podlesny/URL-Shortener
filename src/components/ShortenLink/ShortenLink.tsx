@@ -3,13 +3,14 @@ import './ShortenLink.css'
 import ErrorBoundary from '../../hoc/ErrorBoundary'
 import useLocalStorage from '../../hooks/useLocalStorage'
 import { LinkResponse } from '../../types/types'
-import { apiKey } from '../../../passes'
 
 const ShortenLink = () => {
 	const [originalLink, setOriginalLink] = useState<string>('')
 	const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
 	const [error, setError] = useState<string>('')
 	const [savedLinks, setSavedLinks] = useLocalStorage('savedLinks', [])
+
+	
 
 	const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		setOriginalLink(e.target.value)
@@ -34,10 +35,13 @@ const ShortenLink = () => {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
-					Authorization: `Bearer ${apiKey}`,
+					Authorization: `Bearer ${import.meta.env.VITE_APP_API_KEY}`,
 				},
 
 				body: JSON.stringify(config),
+
+				
+				
 			})
 
 			const data: LinkResponse = await response.json()
