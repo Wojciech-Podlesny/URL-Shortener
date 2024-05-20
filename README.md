@@ -63,7 +63,7 @@ Users should be able to:
 - React Router
 - Vite
 - React
-- Vercel
+- Netlify
 - TinyURL API
 - Cypress 
 
