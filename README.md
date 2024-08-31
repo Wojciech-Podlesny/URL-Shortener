@@ -1,5 +1,7 @@
 #  URL Shortener
 
+The URL Shortener app allows users to easily shorten any valid URL, store and manage a list of shortened links, and copy them to their clipboard with a single click. The application ensures an optimal layout across different screen sizes and provides error handling for invalid input.
+
 - Live Website: https://url-shortener-apps.netlify.app
 
 ## Table of contents
