@@ -1,32 +1,10 @@
-#  URL Shortener
+# URL Shortener
+
+## Project overview
 
 The URL Shortener app allows users to easily shorten any valid URL, store and manage a list of shortened links, and copy them to their clipboard with a single click. The application ensures an optimal layout across different screen sizes and provides error handling for invalid input.
 
-- Live Website: https://url-shortener-apps.netlify.app
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- Shorten any valid URL
-- See a list of their shortened links, even after refreshing the browser
-- Copy the shortened link to their clipboard in a single click
-- Receive an error message when the `form` is submitted if the `input` field is empty
-
-### Features
+## Features
 
 - The user can view the optimal layout for the page for most used widths (more details below)
 - The user can shorten any valid URL to https://tinyurl.com/2s4abc2x, where 2s4abc2x is 8 chars path that is randomly created for each link
@@ -37,47 +15,66 @@ Users should be able to:
   - The `input` field is empty
   - The provided input is not a link
 
-### Further Application Development Plans
+## Further Application Development Plans
 
 - Cypress Tests
 - Building a server and adding a database
 - Adding Login and Registration functionality with authentication
 
-### Screenshot
 
-![Desktop Design](./src/assets/images/Screenshot.png)
-![Desktop Design](./src/assets/images/Screenshot%20shortener%20links.png)
+## Technologies
 
-
-### Links
-
-- Solution URL: [Solution URL](https://github.com/Wojciech-Podlesny/URL-Shortener)
-- Live Site URL: [Live Site URL](https://url-shortener-apps.netlify.app/)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- HTML
+- CSS
+- React
 - Typescript
 - React Router
 - Vite
-- React
+- TinyUrl Api
+- Cypress
 - Netlify
-- TinyURL API
-- Cypress 
 
+## Application View
 
-### Prepared for widths:
+<img src="/src/assets/images/Screenshot.png" alt="Desktop">
 
-- 1440px+
-- 1440px
-- 1024px
-- 768px (tablet)
-- 425-320px (mobile)
+<img src="/src/assets/images/Screenshot shortener links.png" alt="Link">
+
+## Getting Started
+
+You can either run the project locally on your machine or simply visit the live version of the app:
+
+https://url-shortener-apps.netlify.app/
+
+### Local Installation (Optional)
+
+If you want to run the project locally on your machine, you will need:
+
+- A web browser
+- An internet connection
+- Node.js
+- Yarn or npm
+
+To install the project locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/Wojciech-Podlesny/URL-Shortener`
+2. Navigate to the project directory: `cd url-shortener`
+3. Install the dependencies: `yarn install` or `npm install`
+4. Start the development server: `yarn run dev` or `npm run dev`
+5. Open your browser and visit `http://localhost:3000` to view the app
+
+## Run Cypress Tests
+
+To run the Cypress tests, follow these steps:
+
+1. Ensure the development server is running` yarn run dev` or `npm run dev`
+2. Open Cypress: `yarn run open` or `npm run open`
+3. In the Cypress window, click on a test to run it.
 
 ## Author
 
-Wojciech Podleśny
+Developed by [Wojciech Podleśny](https://github.com/Wojciech-Podlesny)
+
+## License
+
+This project is licensed under the ISC license.
