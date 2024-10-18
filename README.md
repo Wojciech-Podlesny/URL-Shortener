@@ -36,9 +36,9 @@ The URL Shortener app allows users to easily shorten any valid URL, store and ma
 
 ## Application View
 
-<img src="/src/assets/images/Screenshot.png" alt="Desktop">
+<img src="./src/assets/images/Screenshot.png" alt="Desktop">
 
-<img src="/src/assets/images/Screenshot shortener links.png" alt="Link">
+<img src="./src/assets/images/Screenshot shortener links.png" alt="Link">
 
 ## Getting Started
 
